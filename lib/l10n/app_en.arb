@@ -1,0 +1,126 @@
+{
+  "@@locale": "en",
+  "appTitle": "Waypoint Alarm",
+  "navMap": "Map",
+  "navAlarms": "Alarms",
+  "navSettings": "Settings",
+  "alarmsEmptyTitle": "No alarms yet",
+  "alarmsEmptySubtitle": "Tap the map to create your first alarm.",
+  "alarmsEmptyAction": "Go to map",
+  "alarmActive": "Active",
+  "alarmInactive": "Inactive",
+  "alarmNameHint": "e.g. My stop, Home, Work",
+  "alarmNameLabel": "Alarm name",
+  "alarmRadiusLabel": "Radius",
+  "alarmToneLabel": "Alarm tone",
+  "alarmToneChoose": "Choose audio",
+  "alarmToneDefault": "Default tone",
+  "alarmVolumeLabel": "Volume",
+  "alarmTriggerBehaviorLabel": "When triggered",
+  "triggerAutoDeactivate": "Auto deactivate",
+  "triggerManualDismiss": "Manual dismiss",
+  "triggerSoundDuration": "Sound for N seconds",
+  "alarmSave": "Activate alarm",
+  "alarmCancel": "Cancel",
+  "alarmEdit": "Edit",
+  "alarmDelete": "Delete",
+  "alarmDeleteConfirmTitle": "Delete alarm",
+  "alarmDeleteConfirmMessage": "Are you sure you want to delete \"{name}\"?",
+  "@alarmDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSearching": "Error searching. Try again.",
+  "searchPlaceholder": "Search for a place...",
+  "monitoringNotificationTitle": "Waypoint Alarm",
+  "monitoringNotificationBody": "{count, plural, =1{1 alarm monitoring your location} other{{count} alarms monitoring your location}}",
+  "@monitoringNotificationBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "monitoringPauseAll": "Pause all",
+  "monitoringViewAlarms": "View alarms",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsLanguageAuto": "Automatic (system)",
+  "settingsTheme": "Theme",
+  "settingsThemeAuto": "Automatic (system)",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsPrecisionMode": "Location precision",
+  "settingsPrecisionGpsOnly": "GPS only",
+  "settingsPrecisionGpsOnlyDesc": "Lower battery usage, less accuracy indoors",
+  "settingsPrecisionHigh": "High precision",
+  "settingsPrecisionHighDesc": "GPS + WiFi + mobile data — best accuracy",
+  "settingsPrecisionLow": "Battery saver",
+  "settingsPrecisionLowDesc": "Lowest accuracy, minimal battery impact",
+  "settingsDefaultBehavior": "Default trigger behavior",
+  "settingsPermissions": "Permissions",
+  "settingsPermissionGranted": "Granted",
+  "settingsPermissionDenied": "Denied",
+  "settingsAdsTitle": "Enable non-intrusive ads",
+  "settingsAdsSubtitle": "Help support the developer with occasional banner ads",
+  "settingsDonateTitle": "Buy me a coffee ☕",
+  "settingsDonateSubtitle": "Support development via Ko-fi or PayPal",
+  "settingsAbout": "About",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsLicenses": "Open source licenses",
+  "settingsTutorial": "View tutorial again",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingWelcomeTitle": "Never miss your stop",
+  "onboardingWelcomeSubtitle": "Waypoint Alarm alerts you when you're near your destination, so you can relax during your trip.",
+  "onboardingHowTitle": "How it works",
+  "onboardingHowStep1": "Place a point on the map",
+  "onboardingHowStep2": "Set the radius",
+  "onboardingHowStep3": "The alarm goes off when you arrive",
+  "onboardingPermissionTitle": "Location permission",
+  "onboardingPermissionSubtitle": "We need your precise location to show where you are on the map and detect when you're near your destination.",
+  "onboardingPermissionGrant": "Grant permission",
+  "onboardingReadyTitle": "All set!",
+  "onboardingReadySubtitle": "You're ready to create your first alarm.",
+  "onboardingStart": "Get started",
+  "permissionLocationTitle": "Location",
+  "permissionBackgroundLocationTitle": "Background location",
+  "permissionNotificationTitle": "Notifications",
+  "permissionAudioTitle": "Audio files",
+  "generalSection": "General",
+  "locationSection": "Location",
+  "alarmsSection": "Alarms",
+  "monetizationSection": "Monetization",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "unitMeters": "m",
+  "unitPercent": "%",
+  "alertTriggeredTitle": "You've arrived!",
+  "alertTriggeredBody": "You are near \"{name}\"",
+  "@alertTriggeredBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "permissionLocationRationale": "Location is needed to detect when you are near your alarms.",
+  "permissionBackgroundLocationRationale": "Background location allows alarms to work even when the app is closed.",
+  "permissionNotificationRationale": "Notifications let us alert you when you arrive at your destination.",
+  "permissionBatteryOptimizationTitle": "Battery optimization",
+  "permissionBatteryOptimizationRationale": "Disabling battery optimization ensures alarms work reliably in the background.",
+  "monitoringStarted": "Monitoring started",
+  "monitoringStopped": "Monitoring stopped",
+  "permissionDeniedMessage": "Some permissions were denied. Alarms may not work correctly in the background.",
+  "alarmDismiss": "Dismiss"
+}
